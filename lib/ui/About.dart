@@ -8,7 +8,7 @@ class About extends StatelessWidget {
   _launchURL(bool cv) async {
     var url;
     if (cv)
-      url = 'https://github.com/yash1200?tab=repositories';
+      url = 'https://github.com/kamalgarg28?tab=repositories';
     else
       url = cVUrl;
     if (await canLaunch(url)) {

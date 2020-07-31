@@ -31,14 +31,14 @@ class Introduction extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               Text(
-                'I\'m Yash Johri',
+                'I\'m Kamal Garg',
                 style: defaultBold,
               ),
               SizedBox(
                 height: 15,
               ),
               Text(
-                'Android and Flutter Developer',
+                'Machine Learning Enthusiast',
                 style: defaultStyleSmall,
               ),
               SizedBox(

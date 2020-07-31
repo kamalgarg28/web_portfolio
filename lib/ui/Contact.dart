@@ -8,13 +8,12 @@ import 'package:url_launcher/url_launcher.dart';
 
 class Contact extends StatelessWidget {
   List<String> urlList = [
-    'https://github.com/yash1200',
-    'https://www.codechef.com/users/yashjohri_1200',
-    'https://codeforces.com/profile/yash1200',
-    'https://www.hackerrank.com/yashjohri1200',
-    'https://www.instagram.com/just_johri/?hl=en',
-    'https://www.linkedin.com/in/yash-johri-61014717b/',
-    'https://twitter.com/YashJohri17',
+    'https://github.com/kamalgarg28',
+    'https://www.codechef.com/users/kamal_garg1024',
+    'https://codeforces.com/profile/kamal.garg1024',
+    'https://www.hackerrank.com/kamal_garg1024',
+    'https://www.instagram.com/kannu_garg_/?hl=en',
+    'https://www.linkedin.com/in/kamal-garg-990147170/',
   ];
 
   _launchURL(int index) async {
@@ -81,7 +80,7 @@ class Contact extends StatelessWidget {
                         width: 5,
                       ),
                       SelectableText(
-                        'yashjohri1200@gmail.com',
+                        'kamal.garg1024@gmail.com',
                         style: styleDescription,
                       ),
                     ],

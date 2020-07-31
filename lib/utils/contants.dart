@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:resumeflutter/Model/ModelExperience.dart';
 
-String cVUrl = "https://drive.google.com/file/d/1wAqf5A8C9oPQ4bYpazWG81626BC-lXNq/view?usp=sharing";
+String cVUrl = "https://drive.google.com/file/d/1u89Y1kHjrEX_uO_uNidTzZg9a31roS1w/view?usp=sharing";
 
 Color defaultLight = Color(0xff2b2c2c);
 Color defaultDart = Color(0xff252525);
@@ -48,75 +48,71 @@ TextStyle styleCompany = TextStyle(
 );
 
 String about =
-    "I'm Yash Johri, currently persuing Btech. in Computer Engineering"
-    " from Jamia Millia Islamia, New Delhi. I'm a Flutter and Android  Developer"
-    ", with a keen understanding of Dart, Java, Firebase, Cloud Firestore,"
-    " Data Structures and Algorithms.\n\nI'm a 1500+ Codeforces rated coder and a 4 star coder on Codechef. I "
-    "qualified for regional level in ACM ICPC, and have also participated"
-    " in Google Hashcode and Google Kickstart. Other than coding, my interests "
-    "lie in Cricket, Soduko, Sci-fi movies & exploring latest technology "
+    "I'm Kamal Garg, currently persuing integrated Btech(IT)+MBA"
+    " from Indian Institute of Information Technology and Management, Gwalior. I'm a Machine Learning enthusiast"
+    ", with a keen understanding of Python, R, C/C++,"
+    " Data Structures and Algorithms.\n\n"
+    "Other than coding, I am a fitness freak who loved particitating in various sports and "
+    "cultural events and my other interests "
+    "include Snooker, Table Tennis, Cricket,Sci-fi movies & exploring latest technology "
     "advancements in the developing world.";
 
 String experience = 'The only source of knowledge is experience';
 
 List<ModelExperience> exp = [
   ModelExperience(
-    'May 2019 - July 2019',
-    "Flutter Developer",
-    "Aeologic Technologies",
-    'I worked as a Flutter developer at Aeologic and did projects as per the requirements',
+    'Aug 2019 - Oct 2019',
+    "E-commerce Assistant",
+    "Gaotek Groups",
+    'Worked as a technical support intern and learned on job digital marketing and e-commerce management with working on Amazon Sales Team',
   ),
 ];
 
 List<ModelExperience> education = [
   ModelExperience(
-    'April 2005 - March 2018',
+    'April 2004 - March 2018',
     'Inter School Student',
-    'Ingraham English School',
-    'Percentage - 90.60 % in 12th ISC Board',
+    'Ingraham Institute English School',
+    'Percentage - 89.60 % in 12th ISC Board',
   ),
   ModelExperience(
     'August 2018 - Present',
     'B.Tech Student',
-    'Jamia Millia Islamia',
-    'Currently pursuing a 4 year Bachelor of Technology course in Computer Ebgineering',
+    'Indian Institute of Information Technology and Management Gwalior',
+    'Currently pursuing a 5 year course Integrated B.Tech+MBA in Information Technology',
   ),
 ];
 
 List<String> language = [
   'C',
   'C++',
-  'Dart',
-  'Java',
   'Python',
-  'Javascript',
+  'R',
+  'Java',
 ];
 
 List<String> langImage = [
   'assets/images/c.png',
   'assets/images/cpp.png',
-  'assets/images/dart.png',
-  'assets/images/java.png',
   'assets/images/python.png',
-  'assets/images/javascript.png',
+  'assets/images/r.png',
+  'assets/images/java.png',
 ];
 
 List<String> tools = [
-  'Flutter',
-  'Android',
+  'Machine Learning',
+  'mySQL',
   'Git',
-  'Firebase',
-  'Node JS',
-  'Mongo DB'
+  'Arduino',
+  'Linux',
 ];
 
 List<String> toolsImage = [
-  'assets/images/flutter.png',
-  'assets/images/android.png',
+  'assets/images/ml.png',
+  'assets/images/sql.png',
   'assets/images/git.png',
-  'assets/images/firebase.png',
-  'assets/images/nodejs.png',
-  'assets/images/mongodb.png',
+  'assets/images/arduino.png',
+  'assets/images/linux.png',
 ];
 
 List<String> social = [
@@ -126,7 +122,6 @@ List<String> social = [
   'assets/images/hackerrank.png',
   'assets/images/instagram.png',
   'assets/images/linkedin.png',
-  'assets/images/twitter.png',
 ];
 
 List<String> socialName = [
@@ -136,5 +131,4 @@ List<String> socialName = [
   'Hackerrank',
   'Instagram',
   'Linkedin',
-  'Twitter',
 ];
